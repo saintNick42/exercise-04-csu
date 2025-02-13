@@ -1,7 +1,7 @@
 ---
 title: "ESS 330 Actvity 4"
 subtitle: "Meet R, Quarto, & Github"
-author: Mike Johnson
+author: whoever
 date: last-modified
 format:
   html:
@@ -85,7 +85,7 @@ Click the settings (wheel) icon next to `knit` to render the output document in 
 ```yaml
 ---
 title: "My First Quarto Document"
-author: "Your Name"
+author: "Muck Galapagos"
 date: today
 format: html
 ---
@@ -232,7 +232,7 @@ cities  |>
 
 ```{r}
 #| echo: false
-threshold <- 10000
+threshold <- 10000000
 
 big_cities <-  cities |> 
   filter(population > threshold)  |> 
